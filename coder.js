@@ -20,11 +20,16 @@ window.addEventListener("click", function (e) {
    
 let contact= document.getElementById("contact")
 let faq= document.getElementById("faq")
+let home= document.getElementById("home")
 
 contact.addEventListener("click", function () {
-    location.href= "C:\Users\Oshinaike Gbenga\Desktop\PRUNATER\contact\contact.html"
+    location.href= "contact/index.html"
 })
 
 faq.addEventListener("click", function () {
-    location.href= "about.html"
+    location.href= "about/index.html"
+})
+
+home.addEventListener("click", function () {
+    location.href= "index.html"
 })
